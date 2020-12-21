@@ -3,13 +3,29 @@
   top: 0;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   box-sizing: border-box;
 
+  padding: 5px 3px;
   width: 100%;
-  padding: 5px 0;
 }
 
-.status-bar__column i {
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar__column:first-child i,
+.status-bar__column:last-child i,
+.status-bar__column:last-child span {
   margin-left: 5px;
 }
