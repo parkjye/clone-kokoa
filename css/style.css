@@ -6,13 +6,12 @@
 
 /* components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* screens */
 @import "screens/login.css";
 
 body {
-  padding: 10px;
-
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
 }
