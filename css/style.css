@@ -14,5 +14,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #2e363e;
+
+  color: var(--white);
+  background-color: black;
 }
