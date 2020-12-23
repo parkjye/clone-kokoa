@@ -41,3 +41,76 @@ header {
   font-size: 18px;
   color: gray;
 }
+
+main {
+  padding: 10px 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user__avatar {
+  margin-right: 20px;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.user .user__name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px 0;
+
+  border-top: 1px solid var(--gray);
+  color: var(--gray);
+}
+
+.channel-component {
+  justify-content: space-between;
+}
+.channel-component,
+.channel-component:first-child {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.channel-component__column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.channel-component__avatar {
+  margin-right: 20px;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+.channel-component__name {
+  font-size: 20px;
+}
+
+.channel-component__song {
+  padding: 8px;
+  border: 1px solid red;
+  border-radius: 15px;
+
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.channel-component__song i {
+  padding-left: 5px;
+}
