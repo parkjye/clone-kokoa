@@ -34,9 +34,11 @@
         <p>log in with your email or phone number.</p>
     </header>
 
-    <form action="" class="login-form">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="text" placeholder="Password" />
+    <form action="friends.html" method="get" class="login-form">
+        <input type="text" placeholder="Email or phone number"
+            onfocus="this.value=''; this.style.color='var(--red)';" />
+
+        <input type="Password" placeholder="Password" onfocus="this.value=''; this.style.color='var(--red)';" />
 
         <button type="submit">Log In</button>
 
