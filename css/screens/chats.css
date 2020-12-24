@@ -1,0 +1,31 @@
+.ad {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+
+  border: 1px solid var(--red);
+  border-radius: 10px;
+}
+
+.ad__badge {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--red);
+  font-size: 8px;
+}
+
+.ad-box {
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.ad img {
+  width: 80px;
+  margin-right: 20px;
+}
