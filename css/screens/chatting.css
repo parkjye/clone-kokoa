@@ -1,0 +1,77 @@
+.chatting-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 35px 0;
+  padding: 0 20px;
+}
+
+.chatting__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.icons-box span:last-child {
+  margin-left: 10px;
+}
+
+.chatting-main {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.chatting__date {
+  padding: 15px;
+
+  border-radius: 20px;
+  background-color: var(--red);
+  opacity: 0.6;
+}
+
+.chatting-message__column {
+  display: flex;
+
+  margin-bottom: 30px;
+}
+
+.message__balloon-date,
+.message__name {
+  font-size: 5px;
+}
+
+.message__balloon {
+  margin-top: 20px;
+}
+
+.message__balloon-box {
+  padding: 10px;
+
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  background-color: var(--lemon);
+  color: black;
+  font-size: 14px;
+}
+
+.message-row {
+  justify-content: flex-end;
+}
+
+.message-row .message__balloon-box {
+  background-color: var(--red);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+}
+
+.message-row .message__balloon {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.message-row .message__balloon-date {
+  margin-top: 15px;
+  margin-right: 10px;
+}
