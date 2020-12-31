@@ -7,6 +7,7 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/mobile-only.css";
 
 /* screens */
 @import "screens/login.css";
