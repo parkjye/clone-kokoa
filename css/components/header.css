@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 35px 0;
+  padding: 0 20px;
+}
+
+.header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header__ul {
+  display: flex;
+  align-items: center;
+}
+
+.header__li {
+  margin-left: 20px;
+
+  position: relative;
+}
+
+.header-mini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 35px 0;
+  padding: 0 20px;
+}
