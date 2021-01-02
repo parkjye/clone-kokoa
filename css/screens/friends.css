@@ -16,33 +16,21 @@
   align-items: center;
 }
 
-.header__ul .header__li {
+.header__li {
   margin-left: 20px;
 
   position: relative;
 }
 
-.alram-dot {
-  display: block;
-  width: 8px;
-  height: 8px;
-  background-color: var(--red);
-
-  position: absolute;
-  top: -6px;
-}
-
-/* Friends Display */
 .friedns-display {
-  background-color: black;
-
   padding: 20px 0;
+
   text-align: center;
   font-size: 18px;
   color: var(--orange);
 }
 
-main {
+.main-user {
   padding: 10px 20px;
 }
 
@@ -60,7 +48,7 @@ main {
   border: 1px solid var(--red);
 }
 
-.user .user__name {
+.user__name {
   font-size: 24px;
   font-weight: 600;
 }
@@ -76,19 +64,14 @@ main {
 }
 
 .channel-component {
-  justify-content: space-between;
-}
-.channel-component,
-.channel-component:first-child {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-
   margin-bottom: 15px;
 }
 
 .channel-component__column {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -100,8 +83,9 @@ main {
   border-radius: 20px;
   border: 1px solid var(--red);
 }
+
 .channel-component__name {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .channel-component__song {
