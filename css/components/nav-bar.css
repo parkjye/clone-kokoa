@@ -25,25 +25,3 @@ nav {
 
   background-color: var(--red);
 }
-
-.alram-badge {
-  justify-content: center;
-  align-items: center;
-
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  font-size: 6px;
-
-  top: -10px;
-  right: -10px;
-}
-
-.alram-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-
-  top: -2px;
-  right: -10px;
-}
