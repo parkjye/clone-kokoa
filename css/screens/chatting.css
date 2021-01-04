@@ -1,38 +1,19 @@
-.chatting__title {
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.icons-box span:last-child {
-  margin-left: 10px;
-}
-
-.chatting-main {
-  display: flex;
-  justify-content: center;
-
-  margin-bottom: 30px;
-}
-
-.chatting__date {
+.chatting-date {
+  width: 30%;
+  margin: 0 auto;
   padding: 15px;
 
   border-radius: 20px;
   background-color: var(--red);
   opacity: 0.6;
 
+  text-align: center;
   font-size: 12px;
 }
 
 .chatting-message__column {
   display: flex;
-
-  margin-bottom: 30px;
-}
-
-.message__balloon-date,
-.message__name {
-  font-size: 5px;
+  margin: 30px 0;
 }
 
 .message__balloon {
@@ -69,6 +50,11 @@
   margin-right: 10px;
 }
 
+.message__balloon-date,
+.message__name {
+  font-size: 5px;
+}
+
 .reply {
   position: fixed;
   bottom: 0;
@@ -78,9 +64,7 @@
   background-color: var(--white);
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
-
   box-sizing: border-box;
 
   transition: transform 0.3s ease-in-out;
@@ -96,18 +80,14 @@
   position: relative;
 }
 
-.reply i {
-  opacity: 0.5;
-}
-
 .reply input {
+  box-sizing: border-box;
+
   width: 100%;
   padding: 15px;
 
-  border: var(--red);
+  border: none;
   border-radius: 25px;
-
-  box-sizing: border-box;
 
   transition: all 0.3s ease-in-out;
 }
@@ -129,30 +109,19 @@
 .reply__column button {
   width: 40px;
   height: 40px;
-  background-color: var(--red);
+
   border: none;
   border-radius: 50%;
+  background-color: var(--red);
 }
 
 .reply__column button i {
-  opacity: 1;
+  color: var(--white);
 }
 
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
-}
-
-.reply .reply__column:first-child,
-.reply .fa-smile-wink,
-.reply button {
-  transition: opacity 0.3s ease-in-out;
-}
-
-.reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-smile-wink,
-.reply:focus-within button {
-  opacity: 0;
 }
 
 .reply input:focus {

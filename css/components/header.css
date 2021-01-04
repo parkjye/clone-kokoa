@@ -22,6 +22,7 @@
   position: relative;
 }
 
+/* chatting, settings 페이지 */
 .header-mini {
   display: flex;
   justify-content: space-between;
@@ -29,4 +30,13 @@
 
   margin: 35px 0;
   padding: 0 20px;
+}
+
+.header-mini__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-mini__icons span:last-child {
+  margin-left: 10px;
 }
