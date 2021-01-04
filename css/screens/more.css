@@ -1,6 +1,12 @@
-.user-profile .user-profile__ibox {
-  width: 70%;
-  text-align: end;
+.user-profile {
+  justify-content: space-between;
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.user-profile__info {
+  width: 100%;
 }
 
 .user-pay {
@@ -18,25 +24,17 @@
 
 .user-pay__info {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 
   padding: 15px;
 }
 
 .user-pay__info-column:first-child {
-  width: 15%;
   padding: 10px;
-
   border: 1px solid var(--red);
   border-radius: 20px;
-
-  text-align: center;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.user-pay__info-column:last-child {
-  width: 85%;
+  font-size: 10px;
 }
 
 .user-pay__info-ul {
@@ -48,26 +46,30 @@
   margin-left: 5px;
 }
 
-.suggestions__icons {
+.suggestions__icons,
+.suggestions__icon-row,
+.suggestions__icon-img {
   display: flex;
+}
+
+.suggestions__icons {
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .suggestions__icon-row {
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .suggestions__icon-img {
+  justify-content: center;
+  align-items: center;
+
   width: 60px;
   height: 60px;
   background-color: var(--red);
   border-radius: 15px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   margin-bottom: 15px;
 }
