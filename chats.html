@@ -41,27 +41,25 @@
         </ul>
     </header>
 
-    <main class="advertisement">
-        <div class="ad">
-            <div class="badge-wrap">
-                <span class="badge__chat-ad">AD</span>
-            </div>
-
-            <a class="ad-box__wrap" href="https://nomadcoders.co/" target="_blank">
-                <div class="ad-box">
-                    <img src="https://nomadcoders.co/m.svg" alt="nomadcoders">
-                    <span>NOMADE CODERS - KOKOA TALK</span>
-                </div>
-            </a>
+    <div class="ad">
+        <div class="badge-wrap">
+            <span class="badge__chat-ad">AD</span>
         </div>
-    </main>
+
+        <a class="ad-box__wrap" href="https://nomadcoders.co/" target="_blank">
+            <div class="ad-box">
+                <img src="https://nomadcoders.co/m.svg" alt="nomadcoders">
+                <span>노마드 코더 - 코코아톡 클론코딩</span>
+            </div>
+        </a>
+    </div>
 
     <main class="chat-main">
         <div class="chat-component">
-            <div class="chat-component__column chat-box">
+            <div class="chat-box">
                 <img class="chat-component__avatar" src="css/img/roxie.JPG" alt="">
 
-                <div class="chat-component__column-wrap">
+                <div class="chat-component__wrap">
                     <div class="chat-component__column-info">
                         <span class="badge__chat-user">ME</span>
 
@@ -75,32 +73,37 @@
                 </div>
             </div>
 
-            <div class="chat-component__column chat-date">
+            <div class="chat-date">
                 <span>12월 24일</span>
             </div>
-        </div>
-    </main> <!-- Roxie chat -->
+        </div> <!-- Roxie chat -->
 
-    <main class="chat-main">
         <a href="chatting.html">
             <div class="chat-component">
-                <div class="chat-component__column chat-box">
+                <div class="chat-box">
                     <img class="chat-component__avatar" src="css/img/velma.JPG" alt="" />
-                    <div class="chat-component__text">
-                        <h6 class="chat-component__column-name">Velma Kelly</h6>
+
+                    <div class="chat-component__wrap">
+                        <div class="chat-component__column-info">
+                            <!-- <span class="badge__chat-user">ME</span> -->
+
+                            <h6 class="chat-component__column-name">Velma Kelly</h6>
+                            <!-- <i class="fas fa-thumbtack"></i> -->
+                        </div>
+
                         <div class="chat-component__column-text">
-                            <p>Merry Christmas, Roxie.</p>
+                            <p>Merry Christmas, Roxie</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="chat-component__column chat-date">
-                    <span class="chat-component__date">19:05</span>
+                <div class="chat-date">
+                    <span>19:05</span>
                     <div class="badge__chat-talk-alarm">1</div>
                 </div>
             </div>
-        </a>
-    </main> <!-- Velma chat -->
+        </a> <!-- Velma chat -->
+    </main>
 
     <nav>
         <ul class="nav--list">
