@@ -1,8 +1,10 @@
+.main-screen {
+  margin-bottom: 70px;
+}
+
 .user-profile {
   display: flex;
   align-items: center;
-
-  margin-bottom: 40px;
 }
 
 .user-profile__name {
@@ -14,8 +16,8 @@
   font-size: 14px;
 }
 
-.main-screen {
-  margin-bottom: 70px;
+.icon-row__wrap {
+  margin-top: 40px;
 }
 
 .icon-row {
